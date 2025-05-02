@@ -1,0 +1,68 @@
+/* styles/globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #b5b6b7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Sorting Visualizer styles */
+.sorting-visualizer {
+  margin-top: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls select,
+.controls button {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.binary-search-input input {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.binary-search-input {
+  display: inline-block;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.bar {
+  background-color: #007bff;
+  margin: 0 5px;
+  transition: height 0.2s ease;
+  width: 20px;
+}
+
+.highlighted-bar {
+  background-color: #20bc6e;
+  margin: 0 5px;
+  transition: height 0.2s ease;
+  width: 20px;
+}
